@@ -5,4 +5,3 @@ def add(a, b):
         b = -b
         sm = (a + b)*(-1)
     print("{}".format(sm), end='')
-    return sm
