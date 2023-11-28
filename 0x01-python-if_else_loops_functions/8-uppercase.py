@@ -7,7 +7,4 @@ def islower(ch):
 
 def uppercase(str):
     for ch in str:
-        print("{:c}"
-                .format(ord(ch) if not islower(ch) else ord(ch) - 32),
-                end="")
-        print("")
+        print("{:c}".format(ord(ch) if not islower(ch) else ord(ch) - 32), end="")
