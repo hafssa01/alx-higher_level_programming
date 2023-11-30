@@ -7,7 +7,7 @@ if __name__ == "__main__":
     if cnt == 0:
         print("{} arguments.".format(cnt))
     elif cnt == 1:
-        print("{} argument.".format(cnt))
+        print("{} argument:".format(cnt))
     else:
         print("{} arguments:".format(cnt))
 
