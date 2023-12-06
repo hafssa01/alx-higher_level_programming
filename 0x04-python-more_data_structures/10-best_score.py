@@ -6,6 +6,6 @@ def best_score(a_dictionary):
     mk = None
     for ky, vl in a_dictionary.items():
         if vl > mv:
-            mv = v
-            mk = k
+            mv = vl
+            mk = ky
     return mk
