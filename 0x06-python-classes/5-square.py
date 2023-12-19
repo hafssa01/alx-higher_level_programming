@@ -44,4 +44,4 @@ class Square:
         for n in range(self.size):
             for m in range(self.size):
                 print("#", end="\n" if m is self.size - 1 and n != m else "")
-            print()
+        print()
