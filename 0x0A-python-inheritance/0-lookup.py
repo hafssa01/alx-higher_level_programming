@@ -2,7 +2,6 @@
 '''Module for lookup methode.'''
 
 
-
 def lookup(obj):
     '''Looks up object attributes and methods
     Args:
