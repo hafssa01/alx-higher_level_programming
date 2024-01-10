@@ -4,6 +4,6 @@
 
 
 def write_file(filename="", text=""):
-    """Writes in filename"""
+    """Writes in filename with utf-8"""
     with open(filename, "w", encoding='utf-8') as f:
         return f.write(text)
