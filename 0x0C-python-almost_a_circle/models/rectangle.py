@@ -50,6 +50,7 @@ class Rectangle(Base):
 	def y(self, value):
 		self.validate_integer("y", value)
 		self.__y = value
+		
 
 	def validate_integer(self, name, value, eq=True):
 		'''Method for validating the value.'''

@@ -15,7 +15,7 @@ class Base:
 			Base.__nb_objects += 1
 			self.id = Base.__nb_objects
 
-	@staticmethode
+	@staticmethod
 	def to_json_string(list_dictionaries):
 		'''jsonifies a dictionary so it's quite righty and longer'''
 		if list_dictionaries is None or not list_dictionaries:
